@@ -1,5 +1,26 @@
-venv/
-venv_aws/
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Virtual environments
+venv/
+venc/
+venv_auth/
+venc_auth/
+
+# Environment variables
 .env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# OS crap files
+.DS_Store
+Thumbs.db
+
+# Database (SQLite or others)
+*.db
+
+# Logs
+*.log
